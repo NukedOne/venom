@@ -160,3 +160,11 @@ make test
 ## Contributing
 
 Contributors to this project are very welcome -- specifically, suggestions (and PRs) as for how to make the whole system even faster, because I suspect there's still more performance left to be squeezed out.
+
+## See also
+
+[synapse](https://github.com/NukedOne/synapse) - My second attempt, written in Rust
+
+## Licensing
+
+Licensed under the [MIT License](https://opensource.org/licenses/MIT). For details, see [LICENSE](https://github.com/NukedOne/venom/blob/master/LICENSE).
