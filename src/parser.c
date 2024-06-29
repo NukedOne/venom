@@ -121,9 +121,9 @@ static Expr literal(Parser *parser) {
   }
 }
 
-static Expr primary();
 static Expr expression(Parser *parser, Tokenizer *tokenizer);
 static Stmt statement(Parser *parser, Tokenizer *tokenizer);
+static Expr primary(Parser *parser, Tokenizer *tokenizer);
 
 static char *operator(Token token) {
   switch (token.type) {
